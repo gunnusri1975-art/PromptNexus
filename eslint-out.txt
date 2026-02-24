@@ -1,0 +1,123 @@
+[0m[0m
+[0m[4mC:\Users\ARYAN\.gemini\antigravity\scratch\promptnexus\scripts\seed.mjs[24m[0m
+[0m  [2m4:44[22m  [33mwarning[39m  'getDocs' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m  [2m4:53[22m  [33mwarning[39m  'query' is defined but never used    [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m  [2m4:60[22m  [33mwarning[39m  'limit' is defined but never used    [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4mC:\Users\ARYAN\.gemini\antigravity\scratch\promptnexus\src\app\(auth)\login\page.tsx[24m[0m
+[0m   [2m25:23[22m  [31merror[39m  Unexpected any. Specify a different type                         [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m   [2m37:23[22m  [31merror[39m  Unexpected any. Specify a different type                         [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m134:28[22m  [31merror[39m  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  [2mreact/no-unescaped-entities[22m[0m
+[0m[0m
+[0m[4mC:\Users\ARYAN\.gemini\antigravity\scratch\promptnexus\src\app\(auth)\signup\page.tsx[24m[0m
+[0m   [2m8:28[22m  [33mwarning[39m  'Sparkles' is defined but never used      [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m  [2m26:23[22m  [31merror[39m    Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m38:23[22m  [31merror[39m    Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4mC:\Users\ARYAN\.gemini\antigravity\scratch\promptnexus\src\app\(dashboard)\admin\page.tsx[24m[0m
+[0m  [2m10:5[22m  [33mwarning[39m  'MoreVertical' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4mC:\Users\ARYAN\.gemini\antigravity\scratch\promptnexus\src\app\(dashboard)\dashboard\page.tsx[24m[0m
+[0m    [2m9:5[22m   [33mwarning[39m  'ArrowUpRight' is defined but never used                         [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m   [2m10:5[22m   [33mwarning[39m  'Plus' is defined but never used                                 [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m   [2m13:5[22m   [33mwarning[39m  'BookOpen' is defined but never used                             [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m   [2m15:10[22m  [33mwarning[39m  'motion' is defined but never used                               [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m   [2m57:55[22m  [31merror[39m    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  [2mreact/no-unescaped-entities[22m[0m
+[0m   [2m57:62[22m  [31merror[39m    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  [2mreact/no-unescaped-entities[22m[0m
+[0m  [2m153:50[22m  [31merror[39m    Unexpected any. Specify a different type                         [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m166:54[22m  [31merror[39m    Unexpected any. Specify a different type                         [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m187:59[22m  [31merror[39m    Unexpected any. Specify a different type                         [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m188:19[22m  [31merror[39m    Unexpected any. Specify a different type                         [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4mC:\Users\ARYAN\.gemini\antigravity\scratch\promptnexus\src\app\(dashboard)\library\page.tsx[24m[0m
+[0m    [2m6:5[22m   [33mwarning[39m  'Filter' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m    [2m9:5[22m   [33mwarning[39m  'Bookmark' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m  [2m166:9[22m   [31merror[39m    Error: Calling setState synchronously within an effect can trigger cascading renders[0m
+[0m[0m
+[0mEffects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:[0m
+[0m* Update external systems with the latest state from React.[0m
+[0m* Subscribe for updates from some external system, calling setState in a callback function when external state changes.[0m
+[0m[0m
+[0mCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).[0m
+[0m[0m
+[0mC:\Users\ARYAN\.gemini\antigravity\scratch\promptnexus\src\app\(dashboard)\library\page.tsx:166:9[0m
+[0m  164 |[0m
+[0m  165 |     useEffect(() => {[0m
+[0m> 166 |         fetchPrompts();[0m
+[0m      |         ^^^^^^^^^^^^ Avoid calling setState() directly within an effect[0m
+[0m  167 |     }, []);[0m
+[0m  168 |[0m
+[0m  169 |     const handleSubmit = async (e: React.FormEvent) => {  [2mreact-hooks/set-state-in-effect[22m[0m
+[0m  [2m229:51[22m  [31merror[39m    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4mC:\Users\ARYAN\.gemini\antigravity\scratch\promptnexus\src\app\(dashboard)\settings\page.tsx[24m[0m
+[0m   [2m9:10[22m  [33mwarning[39m  'motion' is defined but never used        [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m  [2m79:55[22m  [31merror[39m    Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m93:57[22m  [31merror[39m    Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4mC:\Users\ARYAN\.gemini\antigravity\scratch\promptnexus\src\app\(dashboard)\support\page.tsx[24m[0m
+[0m   [2m4:5[22m   [33mwarning[39m  'HelpCircle' is defined but never used                           [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m  [2m11:10[22m  [33mwarning[39m  'motion' is defined but never used                               [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m  [2m19:76[22m  [31merror[39m    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  [2mreact/no-unescaped-entities[22m[0m
+[0m  [2m19:92[22m  [31merror[39m    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  [2mreact/no-unescaped-entities[22m[0m
+[0m  [2m65:76[22m  [31merror[39m    Unexpected any. Specify a different type                         [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m87:40[22m  [31merror[39m    Unexpected any. Specify a different type                         [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4mC:\Users\ARYAN\.gemini\antigravity\scratch\promptnexus\src\app\page.tsx[24m[0m
+[0m  [2m5:32[22m  [33mwarning[39m  'Brain' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[4mC:\Users\ARYAN\.gemini\antigravity\scratch\promptnexus\src\components\Sidebar.tsx[24m[0m
+[0m    [2m9:5[22m   [33mwarning[39m  'MessageSquare' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m   [2m12:5[22m   [33mwarning[39m  'ChevronLeft' is defined but never used    [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m  [2m109:59[22m  [31merror[39m    Unexpected any. Specify a different type   [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4mC:\Users\ARYAN\.gemini\antigravity\scratch\promptnexus\src\context\AuthContext.tsx[24m[0m
+[0m  [2m81:25[22m  [31merror[39m  Error: Cannot access variable before it is declared[0m
+[0m[0m
+[0m`checkAndResetUsage` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.[0m
+[0m[0m
+[0mC:\Users\ARYAN\.gemini\antigravity\scratch\promptnexus\src\context\AuthContext.tsx:81:25[0m
+[0m  79 |                         const data = doc.data() as UserProfile;[0m
+[0m  80 |                         setProfile(data);[0m
+[0m> 81 |                         checkAndResetUsage(data);[0m
+[0m     |                         ^^^^^^^^^^^^^^^^^^ `checkAndResetUsage` accessed before it is declared[0m
+[0m  82 |                     });[0m
+[0m  83 |                 } else {[0m
+[0m  84 |                     // New user setup[0m
+[0m[0m
+[0mC:\Users\ARYAN\.gemini\antigravity\scratch\promptnexus\src\context\AuthContext.tsx:144:5[0m
+[0m  142 |     };[0m
+[0m  143 |[0m
+[0m> 144 |     const checkAndResetUsage = async (currentProfile: UserProfile) => {[0m
+[0m      |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m> 145 |         const lastReset = new Date(currentProfile.lastUsageReset);[0m
+[0m      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m> 146 |         const now = new Date();[0m
+[0m      …[0m
+[0m      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m> 155 |         }[0m
+[0m      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m> 156 |     };[0m
+[0m      | ^^^^^^^ `checkAndResetUsage` is declared here[0m
+[0m  157 |[0m
+[0m  158 |     const incrementUsage = async (): Promise<boolean> => {[0m
+[0m  159 |         if (!profile || !user) return false;  [2mreact-hooks/immutability[22m[0m
+[0m[0m
+[0m[4mC:\Users\ARYAN\.gemini\antigravity\scratch\promptnexus\src\lib\actions\activity.ts[24m[0m
+[0m  [2m12:5[22m   [33mwarning[39m  'Timestamp' is defined but never used     [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m  [2m37:21[22m  [31merror[39m    Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m59:21[22m  [31merror[39m    Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4mC:\Users\ARYAN\.gemini\antigravity\scratch\promptnexus\src\lib\actions\prompts.ts[24m[0m
+[0m   [2m74:21[22m  [31merror[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m   [2m91:21[22m  [31merror[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m   [2m97:54[22m  [31merror[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m  [2m106:21[22m  [31merror[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4mC:\Users\ARYAN\.gemini\antigravity\scratch\promptnexus\src\lib\services\prompt.ts[24m[0m
+[0m  [2m3:10[22m  [33mwarning[39m  'doc' is defined but never used     [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m  [2m3:15[22m  [33mwarning[39m  'setDoc' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m  [2m3:23[22m  [33mwarning[39m  'getDoc' is defined but never used  [2m@typescript-eslint/no-unused-vars[22m[0m
+[0m[0m
+[0m[31m[1m✖ 48 problems (27 errors, 21 warnings)[22m[39m[0m
+[0m[31m[1m[22m[39m[0m

@@ -1,0 +1,662 @@
+[
+  {
+    "title": "Universal Clarity Prompt",
+    "description": "The Universal Clarity Prompt. Before answering:...",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Before answering:\n• Ask clarifying questions\n• Identify missing information\n• Do not assume anything\n• Wait for my confirmation before giving the final output",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.764Z"
+  },
+  {
+    "title": "Writing / Application Prompt",
+    "description": "The Writing / Application Prompt. You are an expert writer....",
+    "category": "Writing",
+    "difficulty": "Beginner",
+    "content": "You are an expert writer.\n\nBefore writing:\n• Ask me all required details\n• Confirm tone (formal / informal)\n• Do not write until I confirm all information\n\nAfter writing:\n• Ask me if edits are needed",
+    "tags": [
+      "writing",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Study / Learning Prompt",
+    "description": "The Study / Learning Prompt. Act as my personal tutor....",
+    "category": "Education",
+    "difficulty": "Beginner",
+    "content": "Act as my personal tutor.\n\n• Explain the topic step by step\n• Use simple language\n• Ask me 2 questions to check understanding\n• If I’m confused, re-explain differently",
+    "tags": [
+      "education",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Exam-Oriented Prompt",
+    "description": "The Exam-Oriented Prompt. Act as an exam expert....",
+    "category": "Education",
+    "difficulty": "Beginner",
+    "content": "Act as an exam expert.\n\n• Explain only what is exam-relevant\n• Highlight common traps\n• Provide 2–3 MCQs with answers\n• Keep explanations short and precise",
+    "tags": [
+      "education",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Thinking / Decision-Making Prompt",
+    "description": "The Thinking / Decision-Making Prompt. Act as a thinking partner....",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Act as a thinking partner.\n\n• Ask questions to clarify my situation\n• List pros and cons\n• Highlight risks and assumptions\n• Give a balanced recommendation",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Career & Roadmap Prompt",
+    "description": "The Career & Roadmap Prompt. Act as a career mentor....",
+    "category": "Productivity",
+    "difficulty": "Beginner",
+    "content": "Act as a career mentor.\n\nBefore suggesting:\n• Ask about my background, skills, and goals\n\nThen:\n• Create a realistic roadmap\n• Break it into short-term steps\n• Suggest resources and next actions",
+    "tags": [
+      "productivity",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "AI / Tech Learning Prompt",
+    "description": "The AI / Tech Learning Prompt. Act as an AI coach....",
+    "category": "Education",
+    "difficulty": "Beginner",
+    "content": "Act as an AI coach.\n\n• Explain concepts using real-life analogies\n• Avoid heavy jargon\n• Give one practical example\n• Ask if I want to go deeper",
+    "tags": [
+      "education",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Planning & Productivity Prompt",
+    "description": "The Planning & Productivity Prompt. Act as a planner....",
+    "category": "Productivity",
+    "difficulty": "Beginner",
+    "content": "Act as a planner.\n\nBefore planning:\n• Ask about my schedule, priorities, and energy levels\n\nThen:\n• Create a realistic plan\n• Keep buffer time\n• Suggest how to track progress",
+    "tags": [
+      "productivity",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Content / Creative Prompt",
+    "description": "The Content / Creative Prompt. Act as a creative assistant....",
+    "category": "Writing",
+    "difficulty": "Beginner",
+    "content": "Act as a creative assistant.\n\n• Match the tone I want\n• Ask clarifying questions about audience and style\n• Give 2 variations",
+    "tags": [
+      "writing",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Improvement / Rewrite Prompt",
+    "description": "The Improvement / Rewrite Prompt. Improve my content....",
+    "category": "Writing",
+    "difficulty": "Beginner",
+    "content": "Improve my content.\n\n• Keep the original meaning\n• Make it clearer and more natural\n• Offer a better version\n• Ask if I want to use it",
+    "tags": [
+      "writing",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Ultimate Master Prompt",
+    "description": "The Ultimate Master Prompt. Act as an expert....",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Act as an expert.\n\nAsk clarifying questions first.\nDo not assume missing details.\nKeep responses concise and structured.\nIf unsure, say so.\nWait for my confirmation before finalizing.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Persistent Rule",
+    "description": "The Persistent Rule. From now on, before answering, suggest a better ve...",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "From now on, before answering, suggest a better version of my question and ask if I want to use it.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Context Anchor",
+    "description": "The Context Anchor. Treat my last instructions as active unless I expl...",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Treat my last instructions as active unless I explicitly cancel them.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Assumption Killer",
+    "description": "The Assumption Killer. If any required information is missing, stop and a...",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "If any required information is missing, stop and ask me instead of assuming.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Quality Lock",
+    "description": "The Quality Lock. If the answer feels generic, improve it before sen...",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "If the answer feels generic, improve it before sending.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Think-First Mode",
+    "description": "The Think-First Mode. Before answering, identify the goal, constraints, ...",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Before answering, identify the goal, constraints, and best approach. Then respond.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Self-Critic Mode",
+    "description": "The Self-Critic Mode. After generating the answer, review it for clarity...",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "After generating the answer, review it for clarity and accuracy. Revise if needed.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Reality Check",
+    "description": "The Reality Check. If you are uncertain, say so clearly instead of gu...",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "If you are uncertain, say so clearly instead of guessing.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Brevity Control",
+    "description": "The Brevity Control. Use the minimum words needed to be clear....",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Use the minimum words needed to be clear.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Intent Lock",
+    "description": "The Intent Lock. If multiple interpretations are possible, ask whic...",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "If multiple interpretations are possible, ask which one I mean.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Level Control",
+    "description": "The Level Control. Adjust explanations to my level unless I ask other...",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Adjust explanations to my level unless I ask otherwise.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Iteration Loop",
+    "description": "The Iteration Loop. Give a draft first. Wait for my feedback. Revise o...",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Give a draft first. Wait for my feedback. Revise only what I mention.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "MASTER CONTROL CODE",
+    "description": "The MASTER CONTROL CODE. From now on: Treat my instructions as persistent, ...",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "From now on: Treat my instructions as persistent, ask clarifying questions when needed, do not assume missing details, optimize for clarity over verbosity, and suggest improvements to my questions when helpful.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "PRFSS",
+    "description": "The PRFSS. Answer as a professional in [field]....",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Answer as a professional in [field].",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "QNAID",
+    "description": "The QNAID. Teach me by asking me guiding questions first....",
+    "category": "Programming",
+    "difficulty": "Beginner",
+    "content": "Teach me by asking me guiding questions first.",
+    "tags": [
+      "programming",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "SUM90",
+    "description": "The SUM90. Summarize in 90 words or less....",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Summarize in 90 words or less.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "CNTRS",
+    "description": "The CNTRS. Give me pros and cons....",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Give me pros and cons.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "STORYX",
+    "description": "The STORYX. Explain this as a short story....",
+    "category": "Writing",
+    "difficulty": "Beginner",
+    "content": "Explain this as a short story.",
+    "tags": [
+      "writing",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "SIMPLX",
+    "description": "The SIMPLX. Remove jargon and simplify....",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Remove jargon and simplify.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "HUMAN",
+    "description": "The HUMAN. Respond like a real human....",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Respond like a real human.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "IDEAX",
+    "description": "The IDEAX. Generate content ideas around this topic....",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Generate content ideas around this topic.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "ANGLEX",
+    "description": "The ANGLEX. Give me unique angles most people miss....",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Give me unique angles most people miss.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "AUDNC",
+    "description": "The AUDNC. Rewrite this for a specific audience....",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Rewrite this for a specific audience.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "TONEX",
+    "description": "The TONEX. Change the tone to [style]....",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Change the tone to [style].",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "FIXIT",
+    "description": "The FIXIT. Point out what’s wrong and how to improve it....",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Point out what’s wrong and how to improve it.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "REPHR",
+    "description": "The REPHR. Rephrase this without changing the meaning....",
+    "category": "Writing",
+    "difficulty": "Beginner",
+    "content": "Rephrase this without changing the meaning.",
+    "tags": [
+      "writing",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "DEB8",
+    "description": "The DEB8. Debate both sides of this issue....",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Debate both sides of this issue.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "IMPORTANT — FACE LOCK",
+    "description": "The IMPORTANT — FACE LOCK. Keep the subject's real face exactly the same as t...",
+    "category": "Creative",
+    "difficulty": "Beginner",
+    "content": "Keep the subject's real face exactly the same as the reference image.\n\nDo NOT change facial structure, jawline, eyes shape, nose, lips, skin tone, beard, hairline, age, or expression.\n\nMaintain 100% identity accuracy.\n\nNo beautification, no face swapping, no AI alteration.\n\nPreserve natural skin texture, pores, asymmetry, and imperfections.\n\nThe person must be instantly recognizable as the same individual.",
+    "tags": [
+      "creative",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Ultra Realistic 3D Character Prompt",
+    "description": "The Ultra Realistic 3D Character Prompt. Use the uploaded reference image as the absolute a...",
+    "category": "Creative",
+    "difficulty": "Beginner",
+    "content": "Use the uploaded reference image as the absolute and primary source of truth, and convert the exact person shown in the image into a hyper-realistic, ultra-photoreal, identity-preserving 3D textured character model, strictly matching the same face, expression, proportions, facial structure, skin texture, hair or turban style, beard or facial hair pattern, and overall likeness as seen in the reference image.\n\nDo not invent, stylize, exaggerate, beautify, simplify, or reinterpret any facial features—no creative liberty is allowed. The generated 3D model must preserve the exact identity of the uploaded person, maintaining natural asymmetry, imperfections, pores, wrinkles, skin roughness, and real human details exactly as they appear in the reference.\n\nThis prompt must work universally for any person, any gender, any age, any ethnicity, and any image quality (raw photo, thumbnail image, compressed image, or low-detail source), and must always produce a stable, accurate, and repeatable result based solely on the uploaded image.\n\nThe output should look like the same real person, not a cartoon, not a generic 3D face, and not a stylized character—only a realistic 3D reconstruction.\n\nCreate an ultra-realistic 3D character (not cartoon, not Pixar-style, not Disney-style unless realism is preserved) with photorealistic realism, high-resolution skin detailing, visible pores, micro skin texture, accurate subsurface scattering, realistic specular highlights, physically correct roughness maps, and true-to-life color calibration.\n\nAll facial elements—eyes, eyelids, iris texture, sclera veins, eyebrows density, nose shape, lips structure, jawline, cheek volume, beard or stubble thickness, hair strands, turban folds (if present), and cloth fibers—must remain 100% identical to the reference image.\n\nRender the model in Cinema 4D / Blender / Unreal-quality pipeline, using ultra-clean topology, realistic geometry, displacement-based detailing (not smoothing), and 8K ultra-sharp texture maps for skin, clothing, and accessories.\n\nClothing must be converted into real 3D fabric with visible weave, folds, stitching, and material texture, matching the reference image exactly—no changes in design, color, or fabric type.\n\nCamera setup must strictly follow the same angle as the reference image, preserving head tilt, eye direction, framing, and perspective. Use a straight-on or reference-matched camera angle, eye-level height, and correct focal length to avoid facial distortion.\n\nComposition should be centered, natural, and realistic, focused entirely on the subject.\n\nLighting must be professional, studio-grade, and physically accurate, using soft diffused key light, balanced fill light, subtle rim light, and realistic ambient bounce lighting. Lighting should enhance texture visibility without flattening the face, avoid harsh shadows, avoid over-exposure, and maintain natural skin tones exactly as seen in the reference image.\n\nPlace the subject against a pure solid white background (or neutral studio background if required), with no props, no patterns, no gradients, no distractions, ensuring complete focus on the person.\n\nThe final output must look like a real person turned into a high-end 3D scan, suitable for thumbnail enhancement, cinematic visuals, branding, posters, and professional design use.\n\nThe final result must never look cartoonish, animated, stylized, plastic, or artificial. It must appear as a true ultra-realistic 3D version of the uploaded image, with every texture clearly visible and identity perfectly preserved.",
+    "tags": [
+      "creative",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "NEGATIVE PROMPT (VERY IMPORTANT)",
+    "description": "The NEGATIVE PROMPT (VERY IMPORTANT). wrong face, altered identity, generic 3D face, Pix...",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "wrong face, altered identity, generic 3D face, Pixar or Disney cartoon look, stylized or animated face, beautified or idealized features, changed nose, changed eyes, altered jawline, smoothed skin, plastic skin, loss of skin texture, incorrect beard or hair, wrong turban folds or size, mismatched facial proportions, exaggerated features, face morphing, identity drift, off-angle camera, perspective distortion, low-detail textures, blurry output, flat shading, harsh shadows, noisy render, grain, pixelation, low resolution, incorrect skin tone, background objects, props, gradients, filters, artistic interpretation, AI hallucination",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Cinematic Photo Enhancement Prompt",
+    "description": "The Cinematic Photo Enhancement Prompt. Enhance the existing photo only — keep the origina...",
+    "category": "Creative",
+    "difficulty": "Beginner",
+    "content": "Enhance the existing photo only — keep the original framing, angle, composition, and facial proportions exactly the same. Do not crop, zoom, or convert to a close-up. Improve overall image clarity and sharpness naturally, with special attention to eye detail while keeping the full face and original framing intact.\n\nRefine focus slightly for better definition without making it overly sharp.\n\nApply soft, natural cinematic lighting correction, preserving realistic shadows and depth already present in the image.\n\nEnhance natural skin texture with visible pores and fine details — no beauty smoothing, no skin softening.\n\nRemove digital noise and compression artifacts while retaining organic texture.\n\nImprove dynamic range and contrast subtly, with muted highlights and rich mid-tones.\n\nMaintain accurate, organic skin tones with realistic color balance.\n\nAdd very subtle cinematic film grain for a professional movie-still look.\n\nBackground should remain exactly as it is, only slightly cleaner if noisy — no artificial blur added.\n\nPreserve all facial features, expressions, hair strands, and natural imperfections.\n\nPhotorealistic result, professional camera look, high-quality enhancement only — no stylization.",
+    "tags": [
+      "creative",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Hairstyle Analyzer Prompt",
+    "description": "The Hairstyle Analyzer Prompt. Analyze the single image I upload....",
+    "category": "Creative",
+    "difficulty": "Beginner",
+    "content": "Analyze the single image I upload.\n\nIdentify my exact face shape and hair type with precision.\n\nThen generate a vertical 9:16 4K 3x3 grid of hairstyle reference images directly on my face.\n\nRequirements:\n\nAnalyze the uploaded image to detect:\n\nFace shape\n\nHair density, texture, curl pattern, and growth direction\n\nBased on this analysis, recommend haircuts for three scenarios:\n\nProfessional or workplace\n\nUniversity or college\n\nSchool or teenage\n\nProvide 4 haircut options per scenario, each with a short, specific explanation of why it suits my geometry and hair behavior.\n\nAfter the recommendations, generate a 3x3 grid of haircut images, each placed realistically on my face.\n\nTechnical requirements:\n\nVertical 9:16 orientation\n\n4K quality\n\nRealistic lighting\n\nNatural hair flow and believable texture\n\nNo fantasy looks or exaggerated AI styling\n\nVariation rules for the 3x3 grid:\n\nMix short, medium, and slightly longer styles\n\nReflect the recommended haircuts\n\nMaintain consistency with my real hair type and proportions\n\nOutput must be structured, clean, and easy to compare across scenarios.\n\nYour goal is accuracy, realism, and professional grooming quality.",
+    "tags": [
+      "creative",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Fluency Analyst Prompt",
+    "description": "The Fluency Analyst Prompt. Act as my Fluency Analyst. I will speak for 30 sec...",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Act as my Fluency Analyst. I will speak for 30 seconds.\n\nBreak down my English into:\n\ngrammar errors\n\nclarity issues\n\ntone & rhythm problems\n\nfiller words\n\nconfidence level\n\nnative vs non-native habits\n\nThen:\n\nRewrite my full answer in natural spoken English\n\nGive me a personalised 1-minute speaking drill\n\nRate my fluency from 1-100\n\nTrack my progress every time I return.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  },
+  {
+    "title": "Real-Life Conversation Partner Prompt",
+    "description": "The Real-Life Conversation Partner Prompt. Act as my Real-Life Conversation Partner. Ask me n...",
+    "category": "General",
+    "difficulty": "Beginner",
+    "content": "Act as my Real-Life Conversation Partner. Ask me natural, daily-life questions one at a time.\n\nAfter each answer:\n\ncorrect my grammar\n\nimprove my tone\n\nrewrite my response in natural English\n\nteach me one advanced phrase I could've used\n\nand ask the next question based on my response.",
+    "tags": [
+      "general",
+      "master"
+    ],
+    "approved": true,
+    "authorId": "admin",
+    "authorName": "Nexus Admin",
+    "createdAt": "2026-02-23T06:00:42.771Z"
+  }
+]

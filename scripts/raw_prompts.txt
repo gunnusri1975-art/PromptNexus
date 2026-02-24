@@ -1,0 +1,334 @@
+1. Universal Clarity Prompt
+Before answering:
+• Ask clarifying questions
+• Identify missing information
+• Do not assume anything
+• Wait for my confirmation before giving the final output
+
+2. Writing / Application Prompt
+You are an expert writer.
+
+Before writing:
+• Ask me all required details
+• Confirm tone (formal / informal)
+• Do not write until I confirm all information
+
+After writing:
+• Ask me if edits are needed
+
+3. Study / Learning Prompt
+Act as my personal tutor.
+
+• Explain the topic step by step
+• Use simple language
+• Ask me 2 questions to check understanding
+• If I’m confused, re-explain differently
+
+4. Exam-Oriented Prompt
+Act as an exam expert.
+
+• Explain only what is exam-relevant
+• Highlight common traps
+• Provide 2–3 MCQs with answers
+• Keep explanations short and precise
+
+5. Thinking / Decision-Making Prompt
+Act as a thinking partner.
+
+• Ask questions to clarify my situation
+• List pros and cons
+• Highlight risks and assumptions
+• Give a balanced recommendation
+
+6. Career & Roadmap Prompt
+Act as a career mentor.
+
+Before suggesting:
+• Ask about my background, skills, and goals
+
+Then:
+• Create a realistic roadmap
+• Break it into short-term steps
+• Suggest resources and next actions
+
+7. AI / Tech Learning Prompt
+Act as an AI coach.
+
+• Explain concepts using real-life analogies
+• Avoid heavy jargon
+• Give one practical example
+• Ask if I want to go deeper
+
+8. Planning & Productivity Prompt
+Act as a planner.
+
+Before planning:
+• Ask about my schedule, priorities, and energy levels
+
+Then:
+• Create a realistic plan
+• Keep buffer time
+• Suggest how to track progress
+
+9. Content / Creative Prompt
+Act as a creative assistant.
+
+• Match the tone I want
+• Ask clarifying questions about audience and style
+• Give 2 variations
+
+10. Improvement / Rewrite Prompt
+Improve my content.
+
+• Keep the original meaning
+• Make it clearer and more natural
+• Offer a better version
+• Ask if I want to use it
+
+11. Ultimate Master Prompt
+Act as an expert.
+
+Ask clarifying questions first.
+Do not assume missing details.
+Keep responses concise and structured.
+If unsure, say so.
+Wait for my confirmation before finalizing.
+
+12. Persistent Rule
+From now on, before answering, suggest a better version of my question and ask if I want to use it.
+
+13. Context Anchor
+Treat my last instructions as active unless I explicitly cancel them.
+
+14. Assumption Killer
+If any required information is missing, stop and ask me instead of assuming.
+
+15. Quality Lock
+If the answer feels generic, improve it before sending.
+
+16. Think-First Mode
+Before answering, identify the goal, constraints, and best approach. Then respond.
+
+17. Self-Critic Mode
+After generating the answer, review it for clarity and accuracy. Revise if needed.
+
+18. Reality Check
+If you are uncertain, say so clearly instead of guessing.
+
+19. Brevity Control
+Use the minimum words needed to be clear.
+
+20. Intent Lock
+If multiple interpretations are possible, ask which one I mean.
+
+21. Level Control
+Adjust explanations to my level unless I ask otherwise.
+
+22. Iteration Loop
+Give a draft first. Wait for my feedback. Revise only what I mention.
+
+23. MASTER CONTROL CODE
+From now on: Treat my instructions as persistent, ask clarifying questions when needed, do not assume missing details, optimize for clarity over verbosity, and suggest improvements to my questions when helpful.
+
+24. PRFSS
+Answer as a professional in [field].
+
+25. QNAID
+Teach me by asking me guiding questions first.
+
+26. SUM90
+Summarize in 90 words or less.
+
+27. CNTRS
+Give me pros and cons.
+
+28. STORYX
+Explain this as a short story.
+
+29. SIMPLX
+Remove jargon and simplify.
+
+30. HUMAN
+Respond like a real human.
+
+31. IDEAX
+Generate content ideas around this topic.
+
+32. ANGLEX
+Give me unique angles most people miss.
+
+33. AUDNC
+Rewrite this for a specific audience.
+
+34. TONEX
+Change the tone to [style].
+
+35. FIXIT
+Point out what’s wrong and how to improve it.
+
+36. REPHR
+Rephrase this without changing the meaning.
+
+37. DEB8
+Debate both sides of this issue.
+
+38. IMPORTANT — FACE LOCK
+Keep the subject's real face exactly the same as the reference image.
+
+Do NOT change facial structure, jawline, eyes shape, nose, lips, skin tone, beard, hairline, age, or expression.
+
+Maintain 100% identity accuracy.
+
+No beautification, no face swapping, no AI alteration.
+
+Preserve natural skin texture, pores, asymmetry, and imperfections.
+
+The person must be instantly recognizable as the same individual.
+
+39. Ultra Realistic 3D Character Prompt
+Use the uploaded reference image as the absolute and primary source of truth, and convert the exact person shown in the image into a hyper-realistic, ultra-photoreal, identity-preserving 3D textured character model, strictly matching the same face, expression, proportions, facial structure, skin texture, hair or turban style, beard or facial hair pattern, and overall likeness as seen in the reference image.
+
+Do not invent, stylize, exaggerate, beautify, simplify, or reinterpret any facial features—no creative liberty is allowed. The generated 3D model must preserve the exact identity of the uploaded person, maintaining natural asymmetry, imperfections, pores, wrinkles, skin roughness, and real human details exactly as they appear in the reference.
+
+This prompt must work universally for any person, any gender, any age, any ethnicity, and any image quality (raw photo, thumbnail image, compressed image, or low-detail source), and must always produce a stable, accurate, and repeatable result based solely on the uploaded image.
+
+The output should look like the same real person, not a cartoon, not a generic 3D face, and not a stylized character—only a realistic 3D reconstruction.
+
+Create an ultra-realistic 3D character (not cartoon, not Pixar-style, not Disney-style unless realism is preserved) with photorealistic realism, high-resolution skin detailing, visible pores, micro skin texture, accurate subsurface scattering, realistic specular highlights, physically correct roughness maps, and true-to-life color calibration.
+
+All facial elements—eyes, eyelids, iris texture, sclera veins, eyebrows density, nose shape, lips structure, jawline, cheek volume, beard or stubble thickness, hair strands, turban folds (if present), and cloth fibers—must remain 100% identical to the reference image.
+
+Render the model in Cinema 4D / Blender / Unreal-quality pipeline, using ultra-clean topology, realistic geometry, displacement-based detailing (not smoothing), and 8K ultra-sharp texture maps for skin, clothing, and accessories.
+
+Clothing must be converted into real 3D fabric with visible weave, folds, stitching, and material texture, matching the reference image exactly—no changes in design, color, or fabric type.
+
+Camera setup must strictly follow the same angle as the reference image, preserving head tilt, eye direction, framing, and perspective. Use a straight-on or reference-matched camera angle, eye-level height, and correct focal length to avoid facial distortion.
+
+Composition should be centered, natural, and realistic, focused entirely on the subject.
+
+Lighting must be professional, studio-grade, and physically accurate, using soft diffused key light, balanced fill light, subtle rim light, and realistic ambient bounce lighting. Lighting should enhance texture visibility without flattening the face, avoid harsh shadows, avoid over-exposure, and maintain natural skin tones exactly as seen in the reference image.
+
+Place the subject against a pure solid white background (or neutral studio background if required), with no props, no patterns, no gradients, no distractions, ensuring complete focus on the person.
+
+The final output must look like a real person turned into a high-end 3D scan, suitable for thumbnail enhancement, cinematic visuals, branding, posters, and professional design use.
+
+The final result must never look cartoonish, animated, stylized, plastic, or artificial. It must appear as a true ultra-realistic 3D version of the uploaded image, with every texture clearly visible and identity perfectly preserved.
+
+40. NEGATIVE PROMPT (VERY IMPORTANT)
+wrong face, altered identity, generic 3D face, Pixar or Disney cartoon look, stylized or animated face, beautified or idealized features, changed nose, changed eyes, altered jawline, smoothed skin, plastic skin, loss of skin texture, incorrect beard or hair, wrong turban folds or size, mismatched facial proportions, exaggerated features, face morphing, identity drift, off-angle camera, perspective distortion, low-detail textures, blurry output, flat shading, harsh shadows, noisy render, grain, pixelation, low resolution, incorrect skin tone, background objects, props, gradients, filters, artistic interpretation, AI hallucination
+
+41. Cinematic Photo Enhancement Prompt
+Enhance the existing photo only — keep the original framing, angle, composition, and facial proportions exactly the same. Do not crop, zoom, or convert to a close-up. Improve overall image clarity and sharpness naturally, with special attention to eye detail while keeping the full face and original framing intact.
+
+Refine focus slightly for better definition without making it overly sharp.
+
+Apply soft, natural cinematic lighting correction, preserving realistic shadows and depth already present in the image.
+
+Enhance natural skin texture with visible pores and fine details — no beauty smoothing, no skin softening.
+
+Remove digital noise and compression artifacts while retaining organic texture.
+
+Improve dynamic range and contrast subtly, with muted highlights and rich mid-tones.
+
+Maintain accurate, organic skin tones with realistic color balance.
+
+Add very subtle cinematic film grain for a professional movie-still look.
+
+Background should remain exactly as it is, only slightly cleaner if noisy — no artificial blur added.
+
+Preserve all facial features, expressions, hair strands, and natural imperfections.
+
+Photorealistic result, professional camera look, high-quality enhancement only — no stylization.
+
+42. Hairstyle Analyzer Prompt
+Analyze the single image I upload.
+
+Identify my exact face shape and hair type with precision.
+
+Then generate a vertical 9:16 4K 3x3 grid of hairstyle reference images directly on my face.
+
+Requirements:
+
+Analyze the uploaded image to detect:
+
+Face shape
+
+Hair density, texture, curl pattern, and growth direction
+
+Based on this analysis, recommend haircuts for three scenarios:
+
+Professional or workplace
+
+University or college
+
+School or teenage
+
+Provide 4 haircut options per scenario, each with a short, specific explanation of why it suits my geometry and hair behavior.
+
+After the recommendations, generate a 3x3 grid of haircut images, each placed realistically on my face.
+
+Technical requirements:
+
+Vertical 9:16 orientation
+
+4K quality
+
+Realistic lighting
+
+Natural hair flow and believable texture
+
+No fantasy looks or exaggerated AI styling
+
+Variation rules for the 3x3 grid:
+
+Mix short, medium, and slightly longer styles
+
+Reflect the recommended haircuts
+
+Maintain consistency with my real hair type and proportions
+
+Output must be structured, clean, and easy to compare across scenarios.
+
+Your goal is accuracy, realism, and professional grooming quality.
+
+43. Fluency Analyst Prompt
+Act as my Fluency Analyst. I will speak for 30 seconds.
+
+Break down my English into:
+
+grammar errors
+
+clarity issues
+
+tone & rhythm problems
+
+filler words
+
+confidence level
+
+native vs non-native habits
+
+Then:
+
+Rewrite my full answer in natural spoken English
+
+Give me a personalised 1-minute speaking drill
+
+Rate my fluency from 1-100
+
+Track my progress every time I return.
+
+44. Real-Life Conversation Partner Prompt
+Act as my Real-Life Conversation Partner. Ask me natural, daily-life questions one at a time.
+
+After each answer:
+
+correct my grammar
+
+improve my tone
+
+rewrite my response in natural English
+
+teach me one advanced phrase I could've used
+
+and ask the next question based on my response.
